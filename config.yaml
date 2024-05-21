@@ -1,0 +1,29 @@
+baseURL: https://robinmartijn.nl/
+languageCode: en-us
+title: robin martijn.
+theme: PaperMod
+outputs:
+  - HTML
+  - RSS
+  - JSON
+params:
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: hi there, beautiful!
+    Content: this is my special place on the internet. my website, my rules.
+
+  socialIcons:
+    - name: "LinkedIn"
+      url: "https://linkedin.com/in/robinmartijn"
+    - name: "X"
+      url: "https://x.com/robinmartijn"
+
+menu:
+  main:
+    - identifier: bitfactory
+      name: bitfactory
+      url: https://bitfactory.nl
+      weight: 30
